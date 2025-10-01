@@ -5,9 +5,10 @@
   </p>
   
   <p align="center">
-    🔗 <a href="https://music-instruments-guide.netlify.app/" target="_blank">Netlify Deployment</a> | 
+    🔗 <a href="https://prathammalviya1.github.io/Music-Instruments-Guide/" target="_blank">GitHub Pages</a> |
     🔗 <a href="https://music-instruments-guide.vercel.app/" target="_blank">Vercel Deployment</a> | 
-    🔗 <a href="https://prathammalviya1.github.io/Music-Instruments-Guide/" target="_blank">GitHub Pages</a>
+    🔗 <a href="https://music-instruments-guide.netlify.app/" target="_blank">Netlify Deployment</a> 
+
   </p>
 </div>
 

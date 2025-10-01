@@ -1,5 +1,5 @@
 <div align="center">
-  <h2 align="center">Music Instruments Guide</h2>
+  <h1 align="center">Music Instruments Guide</h1>
   <p align="center">
     An interactive web application providing information and sound samples for 6 musical instruments with additional About and Contact pages.
   </p>

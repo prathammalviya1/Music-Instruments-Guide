@@ -51,8 +51,8 @@
       </tr>
       <tr>
         <td>Pages</td>
-        <td>3</td>
-        <td>Main, About, Contact</td>
+        <td>9</td>
+        <td>Main, About, Contact + 6 Instrument Pages</td>
       </tr>
       <tr>
         <td>Team Collaboration</td>

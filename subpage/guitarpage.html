@@ -1,0 +1,75 @@
+<html>
+    <title>Guitar info</title>
+    <body >
+        <div class="navbar">
+            <div class="sitename">Instruments library
+                <link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+            </div>
+            <div class="navbarlinks">
+                <ul>
+                    <li><a href="../Homepage.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <link rel="stylesheet" href="style2.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- ------------------------------------------ -->
+        <div class="subdiv">
+            <div class="image">
+               <img src="../images/guitar2f.jpg"> 
+             </div>
+             <div class="headingtext">Guitar
+                <div class="audio">
+                    <img src="../images/play.png" id="icon">
+                </div><hr style="height:2px;border-width:0;color:gray;background-color:gray;margin-left: 25%;margin-right:25%;"></div>
+              
+             <div class="information"><b>POPULARITY</b><br>
+                The popularity of the classical guitar in India has historically been quite low, 
+                but over the last three decades or so, thanks to the Indian Guitar Federation and
+                 its associated bodies, and dedicated and inspiring teachers, India has been training 
+                 an ever-growing number of classical guitarists every year
+                .<br><br>
+                
+                <b>DIFICULTY LEVEL</b><br>
+                Guitar is hard to learn in the beginning, but gets easier the longer you stick with it. 
+                The more you practice, the easier guitar will feel to play.<br>If you want learn by yourself;
+                 It is definitely possible to learn guitar by yourself and if you follow the right advice, it isn't hard. It's important to remember that everybody finds it hard to learn gu
+                    itar in the beginning whether you have a guitar teacher helping you or you're learning by yourself.<br><br>
+                
+                <b>TIME TO LEARN</b><br>
+                For most students, the best age to learn guitar is around age 7. But it's important to note 
+                that all students are different, so there really isn't a best age to start guitar lessons. 
+                Realistically, students can start guitar lessons as 
+                soon as they can comfortably hold a small-scale guitar and press down the strings.<br><br>
+                
+                <b>PRICE</b><br>
+                For acoustic guitar it's around Rs.5000<br>
+                For electric guitar it's around Rs.7500 <br><br></div>
+
+            </div>
+        </div>
+        <audio id="instrumentsong">
+            <source src="../audios/guitar audio.mp3" type="audio/mp3">
+        </audio>
+<script>
+    
+    var instrumentsong =document.getElementById("instrumentsong");
+    var icon= document.getElementById("icon");
+    icon.onclick=function(){
+        if(instrumentsong.paused){
+            instrumentsong.play();
+            icon.src="../images/pause.png";
+
+        }else{
+            instrumentsong.pause();
+    
+            icon.src="../images/play.png";
+
+        }
+    }
+</script>
+
+</html>

@@ -1,0 +1,74 @@
+<html>
+    <title>Flute info</title>
+    <body >
+        <div class="navbar">
+            <div class="sitename">Instruments library
+                <link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+            </div>
+            <div class="navbarlinks">
+                <ul>
+                    <li><a href="../Homepage.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <link rel="stylesheet" href="style2.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- ------------------------------------------ -->
+        <div class="subdiv">
+            <div class="image">
+               <img src="../images/flute2.jpg"> 
+             </div>
+             <div class="headingtext">Flute
+                <div class="audio">
+                    <img src="../images/play.png" id="icon">
+                </div><hr style="height:2px;border-width:0;color:gray;background-color:gray;margin-left: 25%;margin-right:25%;"></div>
+              
+             <div class="information"><b>POPULARITY</b><br>
+                The flute is one of the oldest instruments around, and one of the most diverse. 
+                It is virtually ubiquitous in every culture of the world.<br><br>
+                
+                <b>DIFICULTY LEVEL</b><br>
+                The flute is a medium difficulty instrument to learn. 
+                The flute fingerings and care of the instrument are easy to handle.
+                 Producing sound and playing the more challenging music associated with 
+                 the flute, however, is a challenge for some. Fortunately, 
+                it's easy to work around these with the right help.<br><br>
+                
+                <b>TIME TO LEARN</b><br>
+                hands and fingers, innovative teachers have expertly demonstrated that 
+                young children can successfully produce a beautiful sound on the 
+                flute and begin to learn how to play at age 4, 5, 6 years of age
+                 depending on the child's level of interest and ability to focus 
+                 for short periods of time.<br><br>
+                
+                <b>PRICE</b><br>
+                It is one of the low budget musical instrument to start learning
+                Avg cost is about Rs.2000 <br><br></div>
+
+            </div>
+        </div>
+        <audio id="instrumentsong">
+            <source src="../audios/FLUTEAUDIO.mp3" type="audio/mp3">
+        </audio>
+<script>
+    
+    var instrumentsong =document.getElementById("instrumentsong");
+    var icon= document.getElementById("icon");
+    icon.onclick=function(){
+        if(instrumentsong.paused){
+            instrumentsong.play();
+            icon.src="../images/pause.png";
+
+        }else{
+            instrumentsong.pause();
+    
+            icon.src="../images/play.png";
+
+        }
+    }
+</script>
+
+</html>

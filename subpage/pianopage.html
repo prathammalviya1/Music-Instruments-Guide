@@ -1,0 +1,72 @@
+<html>
+    <title>Piano info</title>
+    <body >
+        <div class="navbar">
+            <div class="sitename">Instruments library
+                <link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+            </div>
+            <div class="navbarlinks">
+                <ul>
+                    <li><a href="../Homepage.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <link rel="stylesheet" href="style2.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- ------------------------------------------ -->
+        <div class="subdiv">
+            <div class="image">
+               <img src="../images/piano2.jpg"> 
+             </div>
+             <div class="headingtext">Piano
+                <div class="audio">
+                    <img src="../images/play.png" id="icon">
+                </div><hr style="height:2px;border-width:0;color:gray;background-color:gray;margin-left: 25%;margin-right:25%;"></div>
+              
+             <div class="information"><b>POPULARITY</b><br>
+                The piano was invented at the end of the 17th century, 
+                had become widespread in Western society by the end of the 18th, 
+                and is still widely played today.<br><br>
+                
+                <b>DIFICULTY LEVEL</b><br>
+                For a beginner, it is easier to learn and memorise the notes on a piano because they repeat in the same pattern across all the keys. 
+                To make things even easier, most piano teachers will start off with teaching only the white keys for adults (a total of 7), 
+                or all black keys for kids (total of 5).<br><br>
+                
+                <b>TIME TO LEARN</b><br>
+                If you want to be a professional classical performer, you're looking at a minimum of 10 to 15 years of concentrated study with a master teacher, 
+                and hours of practice every day. Most people who want to play for their own enjoyment can get great results within three to five years of study and practice.<br><br>
+                
+                <b>PRICE</b><br>
+                There are many variants of keyboards, with costs ranging anywhere between Rs 20,000 and Rs 2 lakh-plus.
+                 Acoustic pianos, however, come at a higher price bracket.
+                  While grand pianos start at around Rs 5 lakh, 
+                for upright pianos it is roughly Rs 2 lakh. <br><br></div>
+
+            </div>
+        </div>
+        <audio id="instrumentsong">
+            <source src="../audios/pianoaudio.mp3" type="audio/mp3">
+        </audio>
+<script>
+    
+    var instrumentsong =document.getElementById("instrumentsong");
+    var icon= document.getElementById("icon");
+    icon.onclick=function(){
+        if(instrumentsong.paused){
+            instrumentsong.play();
+            icon.src="../images/pause.png";
+
+        }else{
+            instrumentsong.pause();
+    
+            icon.src="../images/play.png";
+
+        }
+    }
+</script>
+
+</html>

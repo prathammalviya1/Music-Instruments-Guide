@@ -1,0 +1,76 @@
+<html>
+    <title>violin info</title>
+    <body >
+        <div class="navbar">
+            <div class="sitename">Instruments library
+                <link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+            </div>
+            <div class="navbarlinks">
+                <ul>
+                    <li><a href="../Homepage.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <link rel="stylesheet" href="style2.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- ------------------------------------------ -->
+        <div class="subdiv">
+            <div class="image">
+               <img src="../images/violin2.jpg"> 
+             </div>
+             <div class="headingtext">Violin
+                <div class="audio">
+                    <img src="../images/play.png" id="icon">
+                </div><hr style="height:2px;border-width:0;color:gray;background-color:gray;margin-left: 25%;margin-right:25%;"></div>
+              
+             <div class="information"><b>POPULARITY</b><br>
+                The violin comes in at third on our list. While it is played a lot in classical music, 
+                it is an important part of several genres. It is fairly easy to learn and you can 
+                purchase different sizes, 
+                which makes this a great instrument for kids to start out wit<br><br>
+                
+                <b>DIFICULTY LEVEL</b><br>
+                a violin is the most difficult musical instrument to be master in. 
+                Some genius beginners seem to learn violin perfectly with just two to 
+                three years of practicing. But mostly it takes much longer to become a master 
+                violin player. Explore violin lessons Mississauga for you as a beginner.
+                <br><br>
+                
+                <b>TIME TO LEARN</b><br>
+                If you would like to play the violin professionally, commitment to many years of hard work is essential. 
+                So, exactly how long does it take to learn violin? Well, the answer is entirely up to you. 
+                With a continuous and steady training schedule, 
+                you can make a lot of progress toward your goals in three to five years..<br><br>
+                
+                <b>PRICE</b><br>
+                Violin Price in India starts all the way from Rs. 3,000 and go all the way to Rs. 30,000. 
+                Depending upon whether you are a beginner, 
+                intermediate, or expert, the violin you pick can be different <br><br>
+            </div>
+            </div>
+        </div>
+        <audio id="instrumentsong">
+            <source src="../audios/violinaudio.mp3" type="audio/mp3">
+        </audio>
+<script>
+    
+    var instrumentsong =document.getElementById("instrumentsong");
+    var icon= document.getElementById("icon");
+    icon.onclick=function(){
+        if(instrumentsong.paused){
+            instrumentsong.play();
+            icon.src="../images/pause.png";
+
+        }else{
+            instrumentsong.pause();
+    
+            icon.src="../images/play.png";
+
+        }
+    }
+</script>
+
+</html>

@@ -1,0 +1,72 @@
+<html>
+    <title>Drums info</title>
+    <body >
+        <div class="navbar">
+            <div class="sitename">Instruments library
+                <link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+            </div>
+            <div class="navbarlinks">
+                <ul>
+                    <li><a href="../Homepage.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <link rel="stylesheet" href="style2.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- ------------------------------------------ -->
+        <div class="subdiv">
+            <div class="image">
+               <img src="../images/drums2.jpg"> 
+             </div>
+             <div class="headingtext">Drums
+                <div class="audio">
+                    <img src="../images/play.png" id="icon">
+                </div><hr style="height:2px;border-width:0;color:gray;background-color:gray;margin-left: 25%;margin-right:25%;"></div>
+              
+             <div class="information"><b>POPULARITY</b><br>
+                The electric drums became popular with time. In 1997, major brands such as Yamaha took the initiative 
+                of developing the product. Today these electric drums are among the most popular drum types, 
+                and are widely used by beginners for practice. It was in the 1900s that drums became 
+                an integral part of musical bands.
+                now a days drums are likely popular compared to other musical instruments.<br><br>
+                
+                <b>DIFICULTY LEVEL</b><br>
+                 You can learn a well-known song/beat on the drums in around 30 minutes. 
+                 It often takes 2 years for you to gain a detailed understanding of the drums. 
+                 If you want to become a professional drummer, 
+                 7 to 8 years is typical, but can be faster if you practice harder.<br><br>
+                
+                <b>TIME TO LEARN</b><br>
+                The best age to start drum lessons is generally between ages 6 to 7, 
+                as this is the age where most students gain the mental focus needed to learn an instrument.<br><br>
+                
+                <b>PRICE</b><br>
+                For a good drum set it costs around Rs.25000 at least <br><br></div>
+
+            </div>
+        </div>
+        <audio id="instrumentsong">
+            <source src="../audios/drumsaudio.mp3" type="audio/mp3">
+        </audio>
+<script>
+    
+    var instrumentsong =document.getElementById("instrumentsong");
+    var icon= document.getElementById("icon");
+    icon.onclick=function(){
+        if(instrumentsong.paused){
+            instrumentsong.play();
+            icon.src="../images/pause.png";
+
+        }else{
+            instrumentsong.pause();
+    
+            icon.src="../images/play.png";
+
+        }
+    }
+</script>
+
+</html>

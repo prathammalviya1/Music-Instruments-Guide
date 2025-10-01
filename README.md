@@ -1,5 +1,5 @@
 <div align="center">
-  <h3 align="center">Music Instruments Guide</h3>
+  <h2 align="center">Music Instruments Guide</h2>
   <p align="center">
     An interactive web application providing information and sound samples for 6 musical instruments with additional About and Contact pages.
   </p>
@@ -8,7 +8,6 @@
     🔗 <a href="https://prathammalviya1.github.io/Music-Instruments-Guide/" target="_blank">GitHub Pages</a> |
     🔗 <a href="https://music-instruments-guide.vercel.app/" target="_blank">Vercel Deployment</a> | 
     🔗 <a href="https://music-instruments-guide.netlify.app/" target="_blank">Netlify Deployment</a> 
-
   </p>
 </div>
 
@@ -58,7 +57,10 @@
       <tr>
         <td>Team Collaboration</td>
         <td>2 Members</td>
-        <td>Pratham Malviya & Niraj Kumar Sahu</td>
+        <td>
+          <a href="https://github.com/prathammalviya1" target="_blank">Pratham Malviya</a> & 
+          <a href="https://github.com/Nirajsahux" target="_blank">Niraj Kumar Sahu</a>
+        </td>
       </tr>
     </tbody>
   </table>

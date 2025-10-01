@@ -73,5 +73,5 @@
 </div>
 
 <div align="center">
-  Made with ❤️ by Pratham Malviya & Niraj Kumar Sahu.
+  Made with ❤️ by Our Team.
 </div>

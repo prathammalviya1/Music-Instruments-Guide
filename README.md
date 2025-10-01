@@ -57,7 +57,7 @@
       <tr>
         <td>Team Collaboration</td>
         <td>2 Members</td>
-        <td>Pratham Malviya & Niraj</td>
+        <td>Pratham Malviya & Niraj Kumar Sahu</td>
       </tr>
     </tbody>
   </table>
@@ -73,5 +73,5 @@
 </div>
 
 <div align="center">
-  Made with ❤️ by Pratham Malviya & Niraj.
+  Made with ❤️ by Pratham Malviya & Niraj Kumar Sahu.
 </div>
